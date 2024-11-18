@@ -1,14 +1,14 @@
 {
     "google/vit-base-patch16-224": {
-        "eval_loss": 0.47914570569992065,
-        "eval_accuracy": 0.8,
-        "eval_sensitivity": 0.0,
-        "eval_specificity": 1.0,
-        "eval_average_precision": 0.36592928671262465,
-        "eval_auc_roc": 0.6440443213296398,
-        "eval_runtime": 35.8723,
-        "eval_samples_per_second": 5.297,
-        "eval_steps_per_second": 0.669,
-        "epoch": 3.0
+        "eval_loss": 0.5097922086715698,
+        "eval_accuracy": 0.7684210526315789,
+        "eval_sensitivity": 0.4473684210526316,
+        "eval_specificity": 0.8486842105263158,
+        "eval_average_precision": 0.4466984391353883,
+        "eval_auc_roc": 0.7280124653739612,
+        "eval_runtime": 9.4985,
+        "eval_samples_per_second": 20.003,
+        "eval_steps_per_second": 2.527,
+        "epoch": 5.0
     }
 }

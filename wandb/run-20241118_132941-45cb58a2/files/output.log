@@ -1,0 +1,21 @@
+Fast image processor class <class 'transformers.models.vit.image_processing_vit_fast.ViTImageProcessorFast'> is available for this model. Using slow image processor class. To use the fast image processor class set `use_fast=True`.
+Some weights of ViTForImageClassification were not initialized from the model checkpoint at google/vit-base-patch16-224 and are newly initialized because the shapes did not match:
+- classifier.bias: found shape torch.Size([1000]) in the checkpoint and torch.Size([2]) in the model instantiated
+- classifier.weight: found shape torch.Size([1000, 768]) in the checkpoint and torch.Size([2, 768]) in the model instantiated
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
+num_params = 85,800,194 | trainable_params = 1,538
+C:\Users\win10\AppData\Local\Temp\ipykernel_26168\486406674.py:30: FutureWarning: `tokenizer` is deprecated and will be removed in version 5.0.0 for `Trainer.__init__`. Use `processing_class` instead.
+  trainer = Trainer(
+Training and evaluating model: google/vit-base-patch16-224
+100%|██████████| 455/455 [02:45<00:00,  2.75it/s]
+100%|██████████| 24/24 [00:08<00:00,  2.77it/s]
+{'eval_loss': 0.6050001382827759, 'eval_accuracy': 0.6931216931216931, 'eval_sensitivity': 0.6756756756756757, 'eval_specificity': 0.6973684210526315, 'eval_average_precision': 0.4533110955286464, 'eval_auc_roc': 0.7562233285917496, 'eval_runtime': 9.1807, 'eval_samples_per_second': 20.587, 'eval_steps_per_second': 2.614, 'epoch': 1.0}
+{'loss': 0.6726, 'grad_norm': 2.4308431148529053, 'learning_rate': 7.802197802197802e-05, 'epoch': 1.1}
+{'eval_loss': 0.5451708436012268, 'eval_accuracy': 0.7566137566137566, 'eval_sensitivity': 0.5135135135135135, 'eval_specificity': 0.8157894736842105, 'eval_average_precision': 0.4805092731928206, 'eval_auc_roc': 0.7763157894736842, 'eval_runtime': 9.1036, 'eval_samples_per_second': 20.761, 'eval_steps_per_second': 2.636, 'epoch': 2.0}
+{'loss': 0.6052, 'grad_norm': 4.208734512329102, 'learning_rate': 5.604395604395605e-05, 'epoch': 2.2}
+{'eval_loss': 0.5198349952697754, 'eval_accuracy': 0.783068783068783, 'eval_sensitivity': 0.5135135135135135, 'eval_specificity': 0.8486842105263158, 'eval_average_precision': 0.48394344235098047, 'eval_auc_roc': 0.7850284495021338, 'eval_runtime': 8.6616, 'eval_samples_per_second': 21.821, 'eval_steps_per_second': 2.771, 'epoch': 3.0}
+{'loss': 0.5844, 'grad_norm': 4.382779121398926, 'learning_rate': 3.406593406593407e-05, 'epoch': 3.3}
+{'eval_loss': 0.5144774317741394, 'eval_accuracy': 0.7883597883597884, 'eval_sensitivity': 0.5405405405405406, 'eval_specificity': 0.8486842105263158, 'eval_average_precision': 0.4904815521485693, 'eval_auc_roc': 0.7889402560455192, 'eval_runtime': 8.9367, 'eval_samples_per_second': 21.149, 'eval_steps_per_second': 2.686, 'epoch': 4.0}
+{'loss': 0.5653, 'grad_norm': 1.7939910888671875, 'learning_rate': 1.2087912087912089e-05, 'epoch': 4.4}
+{'eval_loss': 0.508956789970398, 'eval_accuracy': 0.7883597883597884, 'eval_sensitivity': 0.5405405405405406, 'eval_specificity': 0.8486842105263158, 'eval_average_precision': 0.4893161346381515, 'eval_auc_roc': 0.7885846372688478, 'eval_runtime': 9.4504, 'eval_samples_per_second': 19.999, 'eval_steps_per_second': 2.54, 'epoch': 5.0}
+{'train_runtime': 165.5086, 'train_samples_per_second': 43.925, 'train_steps_per_second': 2.749, 'train_loss': 0.5997786637190934, 'epoch': 5.0}
