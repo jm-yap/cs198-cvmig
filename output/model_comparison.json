@@ -10,5 +10,17 @@
         "eval_samples_per_second": 20.003,
         "eval_steps_per_second": 2.527,
         "epoch": 5.0
+    },
+    "google-vit-base-patch16-224_isic2016-2017_augmented": {
+        "eval_loss": 0.4536207318305969,
+        "eval_accuracy": 0.8063291139240506,
+        "eval_sensitivity": 0.32903225806451614,
+        "eval_specificity": 0.9228346456692913,
+        "eval_average_precision": 0.418434234822171,
+        "eval_auc_roc": 0.7280467360934721,
+        "eval_runtime": 219.4795,
+        "eval_samples_per_second": 3.599,
+        "eval_steps_per_second": 0.451,
+        "epoch": 5.0
     }
 }
