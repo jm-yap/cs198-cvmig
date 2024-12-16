@@ -1,26 +1,38 @@
 {
-    "google/vit-base-patch16-224": {
-        "eval_loss": 0.5097922086715698,
-        "eval_accuracy": 0.7684210526315789,
-        "eval_sensitivity": 0.4473684210526316,
-        "eval_specificity": 0.8486842105263158,
-        "eval_average_precision": 0.4466984391353883,
-        "eval_auc_roc": 0.7280124653739612,
-        "eval_runtime": 9.4985,
-        "eval_samples_per_second": 20.003,
-        "eval_steps_per_second": 2.527,
+    "google-vit-base-patch16-224_isic2016": {
+        "eval_loss": 0.4215909540653229,
+        "eval_accuracy": 0.8105263157894737,
+        "eval_sensitivity": 0.10526315789473684,
+        "eval_specificity": 0.9868421052631579,
+        "eval_average_precision": 0.45971908687682045,
+        "eval_auc_roc": 0.7938019390581719,
+        "eval_runtime": 10.65,
+        "eval_samples_per_second": 17.84,
+        "eval_steps_per_second": 2.254,
         "epoch": 5.0
     },
-    "google-vit-base-patch16-224_isic2016-2017_augmented": {
-        "eval_loss": 0.4536207318305969,
-        "eval_accuracy": 0.8063291139240506,
-        "eval_sensitivity": 0.32903225806451614,
-        "eval_specificity": 0.9228346456692913,
-        "eval_average_precision": 0.418434234822171,
-        "eval_auc_roc": 0.7280467360934721,
-        "eval_runtime": 219.4795,
-        "eval_samples_per_second": 3.599,
-        "eval_steps_per_second": 0.451,
+    "facebook-deit-base-patch16-224_isic2016": {
+        "eval_loss": 0.4197753965854645,
+        "eval_accuracy": 0.8157894736842105,
+        "eval_sensitivity": 0.10526315789473684,
+        "eval_specificity": 0.993421052631579,
+        "eval_average_precision": 0.5577613625709394,
+        "eval_auc_roc": 0.7609072022160666,
+        "eval_runtime": 9.5277,
+        "eval_samples_per_second": 19.942,
+        "eval_steps_per_second": 2.519,
+        "epoch": 5.0
+    },
+    "microsoft-swinv2-base-patch4-window8-256_isic2016": {
+        "eval_loss": 0.40475553274154663,
+        "eval_accuracy": 0.8105263157894737,
+        "eval_sensitivity": 0.07894736842105263,
+        "eval_specificity": 0.993421052631579,
+        "eval_average_precision": 0.6104832425150799,
+        "eval_auc_roc": 0.8374307479224377,
+        "eval_runtime": 12.362,
+        "eval_samples_per_second": 15.37,
+        "eval_steps_per_second": 1.941,
         "epoch": 5.0
     }
 }
